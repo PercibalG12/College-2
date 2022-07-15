@@ -46,6 +46,14 @@ window.addEventListener("scroll", function () {
   }
 });
 
+// function removehighlight () {
+//   if (window.scrollY >= 100) {
+//   document.querySelector (" navbar-item: a:hover").style.display = "none"
+      
+//     }
+//   }
+
+
 
 
 /**

@@ -1,6 +1,6 @@
 EduHome - Education Is About Academic Excellence
 
-grades notices clubs calendar contact - add to navbar ! important 
+ 
 
 #---------- HEADER ----------#
 

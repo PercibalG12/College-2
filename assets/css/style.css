@@ -500,6 +500,8 @@ body {
   transition: var(--transition-1);
 }
 
+/* .category-card:is(:hover, :focus-within) */
+
 .category-card .card-icon {
   background-color: var(--icon-bg);
   color: var(--icon-color);
@@ -526,7 +528,7 @@ body {
   --icon-color: var(--white);
   --icon-bg: var(--white_10);
 
-  background-color: var(--ultramarine-blue);
+  background-color: rgb(128, 0, 128);
 }
 
 
