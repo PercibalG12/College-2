@@ -723,7 +723,7 @@ body {
 \*-----------------------------------*/
 
 .cta {
-  background-color: var(--ultramarine-blue);
+  background-color: rgb(128, 0, 128);
   color: var(--white);
   background-repeat: no-repeat;
   background-size: auto;
