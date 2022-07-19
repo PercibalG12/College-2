@@ -89,6 +89,7 @@
   box-sizing: border-box;
 }
 
+
 li { list-style: none; }
 
 a {
@@ -199,16 +200,19 @@ body {
   color: var(--white);
 }
 
-.btn-primary:is(:hover, :focus) { background-color: var(--space-cadet-2); }
+.btn-primary:is(:hover, :focus) {
+   background-color: #fff;
+   color: rgb(128, 0, 128);
+   }
 
 .btn-secondary {
   background-color: var(--white);
-  color: var(--ultramarine-blue);
+  color: rgb(128, 0, 128);
 }
 
 .btn-secondary:is(:hover, :focus) {
-  background-color: var(--pumpkin);
-  color: var(--white);
+  background-color: rgb(221, 16, 248);
+  color: #fff;
 }
 
 .w-100 { width: 100%; }
@@ -233,10 +237,7 @@ body {
 /*-----------------------------------*\
   #HEADER
 \*-----------------------------------*/
-/* .header-action-btn .header-action-btn .login-btn{
- 
-  color: rgb(128, 0, 128);
-} */
+
 
 .login-btn .span
  {
@@ -283,6 +284,12 @@ body {
   box-shadow: var(--shadow-1);
 }
 
+.header-action-btn:hover{
+  background-color: rgb(128, 0, 128);
+  color:var(--white);
+
+}
+
 .header-action-btn ion-icon 
   {
    --ionicon-stroke-width: 40px; 
@@ -291,11 +298,12 @@ body {
  .header-actions .login-btn{
  background-color: rgb(128, 0, 128) ;
   }
-/* .header-action-btn .login-btn
-{
-  background: rgb(128, 0, 128) ;
-} */
 
+  .header-actions .login-btn:hover{
+    color: rgb(128, 0, 128) ;
+    background-color: #fff;
+     }
+   
 
 .navbar {
   position: fixed;
@@ -356,7 +364,7 @@ body {
 
 .navbar-link:is(:hover, :focus)
  { 
-  color: #fff;
+  color:rgb(113, 59, 172);
 }
 
 .overlay {
@@ -756,7 +764,7 @@ body {
 
 .event-card {
   position: relative;
-  background-color: var(--cultured-1);
+  background-color: rgb(245, 245, 245);
   border-radius: var(--radius-6);
   overflow: hidden;
 }
@@ -770,7 +778,7 @@ body {
   position: absolute;
   top: 25px;
   left: 0;
-  background-color: var(--ultramarine-blue);
+  background-color: rgb(128, 0, 128);
   color: var(--white);
   padding: 5px 15px;
   border-radius: 0 50px 50px 0;
@@ -787,7 +795,7 @@ body {
 }
 
 .event-card .card-address ion-icon {
-  color: var(--ultramarine-blue);
+  color: rgb(128, 0, 128);
   --ionicon-stroke-width: 40px;
 }
 
@@ -797,12 +805,17 @@ body {
   line-height: 1.5;
 }
 
-.event-card .card-title { transition: var(--transition-1); }
+.event-card .card-title {
+   transition: var(--transition-1); 
+ 
+  }
 
-.event-card .card-title:is(:hover, :focus) { color: var(--ultramarine-blue); }
+.event-card .card-title:is(:hover, :focus) { 
+  color: rgb(128, 0, 128); 
+}
 
 .event-card .btn-link {
-  color: var(--ultramarine-blue);
+  color: rgb(128, 0, 128);
   font-size: var(--fs-5);
   font-weight: var(--fw-700);
   max-width: max-content;
@@ -813,7 +826,9 @@ body {
   transition: var(--transition-1);
 }
 
-.event-card .btn-link:is(:hover, :focus) { border-color: var(--ultramarine-blue); }
+.event-card .btn-link:is(:hover, :focus) {
+   border-color:rgb(128, 0, 128); 
+  }
 
 
 
