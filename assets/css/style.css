@@ -277,7 +277,7 @@ body {
 }
 
 .header-action-btn {
-  background-color: var(--white);
+  background-color: #fff;
   color: rgb(128, 0, 128);
   padding: 12px;
   border-radius: var(--radius-4);
@@ -297,6 +297,7 @@ body {
 
  .header-actions .login-btn{
  background-color: rgb(128, 0, 128) ;
+ color: #fff;
   }
 
   .header-actions .login-btn:hover{
@@ -511,8 +512,8 @@ body {
 /* .category-card:is(:hover, :focus-within) */
 
 .category-card .card-icon {
-  background-color: var(--icon-bg);
-  color: var(--icon-color);
+  background-color: #fff;
+  color: rgb(128, 0, 128);
   font-size: 30px;
   height: 60px;
   min-width: 60px;
@@ -521,6 +522,13 @@ body {
   border-radius: var(--radius-4);
   transition: var(--transition-1);
 }
+
+/* .category-card :hover,:focus {
+  
+  color: #fff;
+
+  transition: var(--transition-1);
+} */
 
 .category-card .card-title { color: var(--title-color); }
 
@@ -715,7 +723,7 @@ body {
 }
 
 .course-card .card-price .span {
-  color: var(--ultramarine-blue);
+  color: rgb(128, 0, 128);
   font-size: var(--fs-4);
   font-weight: var(--fw-700);
 }
@@ -875,7 +883,7 @@ body {
 \*-----------------------------------*/
 
 .footer {
-  background-color: var(--space-cadet-2);
+  background-color: rgb(128, 0, 128);
   color: var(--white);
 }
 
@@ -903,7 +911,9 @@ body {
   transition: var(--transition-1);
 }
 
-.social-link:is(:hover, :focus) { background-color: var(--ultramarine-blue); }
+.social-link:is(:hover, :focus) { 
+  background-color: rgb(221, 16, 248); 
+}
 
 .footer-list-title {
   font-size: var(--fs-3);
@@ -923,7 +933,9 @@ body {
   transition: var(--transition-1);
 }
 
-.footer-link:not(address):is(:hover, :focus) { color: var(--ultramarine-blue); }
+.footer-link:not(address):is(:hover, :focus) {
+   color: rgb(221, 16, 248); 
+  }
 
 .footer-item { align-items: baseline; }
 
@@ -956,7 +968,7 @@ body {
   position: fixed;
   bottom: 20px;
   right: 30px;
-  background-color: var(--orange-peel);
+  background-color: rgb(128, 0, 128);
   color: var(--white);
   font-size: 22px;
   padding: 12px;
@@ -965,6 +977,9 @@ body {
   opacity: 0;
   visibility: hidden;
   transition: var(--transition-1);
+  box-shadow: 2px 7px 53px 7px rgba(0,0,0,0.74);
+-webkit-box-shadow: 2px 7px 53px 7px rgba(0,0,0,0.74);
+-moz-box-shadow: 2px 7px 53px 7px rgba(0,0,0,0.74);
 }
 
 .back-top-btn.active {
@@ -1079,23 +1094,27 @@ body {
 
   .header-action-btn:not(.login-btn) { padding: 17px; }
 
-  .login-btn .span { display: block; }
+  .login-btn .span { 
+    display: block; 
+ 
+}
 
   .login-btn {
     display: flex;
     align-items: center;
     gap: 8px;
     background-color: var(--ultramarine-blue);
-    color: var(--white);
+    color:  #fff;;
     min-height: 50px;
     padding-inline: 25px;
     font-weight: var(--fw-700);
     transition: var(--transition-1);
+    
   }
 
-  .login-btn ion-icon { --ionicon-stroke-width: 70px; }
+  /* .login-btn ion-icon { --ionicon-stroke-width: 70px; }
 
-  .login-btn:is(:hover, :focus) { background-color: var(--space-cadet-2); }
+  .login-btn:is(:hover, :focus) { background-color: var(--space-cadet-2); } */
 
 
 
