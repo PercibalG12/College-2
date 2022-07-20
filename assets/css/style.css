@@ -642,7 +642,7 @@ body {
 
 .course-card .badge {
   background-color: var(--white);
-  color: var(--ultramarine-blue);
+  color:rgb(128, 0, 128);
   font-size: var(--fs-6);
   font-weight: var(--fw-600);
   padding: 4px 12px;
